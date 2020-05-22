@@ -19,6 +19,11 @@ body {
     background-attachment: fixed;
     background: linear-gradient(to top, #f22812 0%, #f59319 100%); 
 }
+.footer{
+  text-align: center;
+  color: white;  
+  font-size: 12px; 
+}
 .wrapper{
   width: 100%; 
   height: 100vh; 
