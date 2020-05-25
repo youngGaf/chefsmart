@@ -12,22 +12,12 @@ h1{
   font-family: Lobster; 
   padding: 15px; 
 }
-.subheading{
- font-family:inter; 
- color: white; 
- text-align: center;
-}
 body {
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background: linear-gradient(to top, #f22812 0%, #f59319 100%); 
-}
-.footer{
-  text-align: center;
-  color: white;  
-  font-size: 12px;
 }
 .wrapper{
   width: 100%; 
