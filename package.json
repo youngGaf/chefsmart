@@ -1,0 +1,23 @@
+{
+  "name": "chefsmart",
+  "version": "1.0.0",
+  "description": "web application that provides users with a simple and easy way to find recipes for only the ingredients they have at hand. - built using HTML, CSS & Javascript but transitioning to React and Django (in progress).",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alistairmccarten/chefsmart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alistairmccarten/chefsmart/issues"
+  },
+  "homepage": "https://github.com/alistairmccarten/chefsmart#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
