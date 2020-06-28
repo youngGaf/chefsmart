@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import Header from "./components/Header.js"
+import Wordmark from './components/Wordmark.js';
 import SearchBar from "./components/SearchBar.js"
+
 
 function App() {
   return (
     <div className="App">
-        <Header/> 
+        <Wordmark/> 
         <SearchBar/> 
     </div>
   );
