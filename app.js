@@ -18,5 +18,5 @@ mongoose.connect(process.env.DB_CONNECTION, { useUnifiedTopology: true, useNewUr
     console.log("connected to DB")
 );
 
-//How to listen to server
+//How to listen to server (http://localhost:3000/)
 app.listen(3000);
