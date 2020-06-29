@@ -14,3 +14,23 @@ html, body{
   justify-content: center;
   margin-top: 175px;
 }
+.Login{
+  float: right;
+  color: orangered;
+  font-weight: bold;
+  margin-top: 0px;
+  font-size: 15px;
+  text-decoration: none;
+}
+.Login:hover {
+  color: orange;
+}
+.SaveFeature{
+  float: left;
+  color: orangered;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-right: 5px;
+  font-size: 15px;
+  text-decoration: none;
+}
