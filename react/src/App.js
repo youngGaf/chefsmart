@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 import Wordmark from './components/Wordmark.js';
-import SearchBar from "./components/SearchBar.js"
+import SearchBar from "./components/SearchBar.js";
+
 
 
 function App() {
