@@ -34,6 +34,28 @@ div, span {
   background-color: orange;
   border: orange;
 }
+.searchTagContainer{
+  display: flex; 
+  flex: 1;
+  flex-wrap: wrap;
+  margin-left: 300px;
+  margin-right: 445px;
+}
+.searchTag{
+  display: flex;
+  align-items: center;
+  height: 30px;
+  background-color: orangered;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+.ingrediant{
+  padding-left: 10px;
+}
+.crossIcon{
+  color: white;
+}
 .wordmark{
   color: orangered; 
   font-family: Lobster;
