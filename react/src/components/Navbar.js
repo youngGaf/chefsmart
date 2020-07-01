@@ -5,11 +5,13 @@ function Navbar(){
     return(
         <nav>
             <div className="left">
-                <FontAwesomeIcon icon="heart" color="orangered" size="lg" />
+                <a href="https://fontawesome.com" className="heartLink"> {/*Change this URL*/}
+                    <FontAwesomeIcon icon="heart" color="orangered" size="lg" />
+                </a>
             </div>
             <div className="center">
                 <span>
-                    <a href="https://github.com/alistairmccarten/chefsmart" >
+                    <a href="https://github.com/alistairmccarten/chefsmart" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={['fab', 'github']} size="2x"/>
                     </a>
                 </span>

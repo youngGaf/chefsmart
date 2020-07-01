@@ -16,8 +16,8 @@ function Card(props){
                             <p className="cookingTime"> {props.cookingTime} </p>
                         </div>
                     </div>
-                    <h1 className="recipieImage"> Recipe Image </h1>
-                    <p> Short Description </p>
+                    <h1 className="recipeImage"> {props.recipeImage} </h1>
+                    <p> {props.shortDescription} </p>
                 </div>
         </div>
     )

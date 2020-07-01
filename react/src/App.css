@@ -67,6 +67,12 @@ a:hover {
   justify-content: space-between;
   align-items: baseline;
 }
+.left{
+  margin-left: 75px;
+}
+.right{
+  margin-right: 75px;
+}
 /*
 @media screen and (max-width: 600px) {
   .column {

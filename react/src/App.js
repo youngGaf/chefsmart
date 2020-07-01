@@ -18,7 +18,7 @@ function App() {
         <Navbar/>
         <Wordmark/> 
         <SearchBar/> 
-        <RecipeCards/>
+        <RecipeCards />
     </div>
   );
 }

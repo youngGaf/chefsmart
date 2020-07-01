@@ -34,6 +34,7 @@ export default class App extends Component {
           inputBoxBorderColor="orangered"
           inputBoxFontColor="orangered"
           inputBoxFontSize="14px"
+          border="20px"
           data={this.data}
           callback={record => console.log(record)}
         />
