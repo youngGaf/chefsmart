@@ -11,11 +11,28 @@ nav {
 div, span {
   margin: 8px;
 }
+.searchContainer{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .searchBox{
-  max-width:650px;
-  margin: 0 auto;
-  padding-bottom: 100px;
-  
+  width: 500px;
+}
+.searchButton{
+  background-color:orangered;
+  color: white;
+  font-weight: bold;
+  border: 1px solid orangered;
+  border-radius: 5px;
+  width: 150px;
+  height: 40px;
+
+}
+.searchButton:hover {
+  background-color: orange;
+  border: orange;
 }
 .wordmark{
   color: orangered; 

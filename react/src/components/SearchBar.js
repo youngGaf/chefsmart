@@ -27,18 +27,22 @@ export default class App extends Component {
 
   render() {
     return (
-      <div className="searchBox">
-        <ReactSearchBox
-          className="SearchBar"
-          placeholder="What would you like to cook?"
-          inputBoxBorderColor="orangered"
-          inputBoxFontColor="orangered"
-          inputBoxFontSize="14px"
-          border="20px"
-          data={this.data}
-          callback={record => console.log(record)}
-        />
-      </div> 
+      <div className="searchContainer">
+        <div className="searchBox">
+          <ReactSearchBox
+            className="SearchBar"
+            placeholder="What would you like to cook?"
+            inputBoxBorderColor="orangered"
+            inputBoxFontColor="orangered"
+            inputBoxFontSize="14px"
+            border="20px"
+            data={this.data}
+            callback={record => console.log(record)}
+          />
+        </div> 
+          <button className="searchButton"> Search </button>
+      </div>
+
     )
   }
 }
