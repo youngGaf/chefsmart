@@ -31,7 +31,7 @@ export default class App extends Component {
         <div className="searchBox">
           <ReactSearchBox
             className="SearchBar"
-            placeholder="What would you like to cook?"
+            placeholder="What would you like to cook with?"
             inputBoxBorderColor="orangered"
             inputBoxFontColor="orangered"
             inputBoxFontSize="14px"

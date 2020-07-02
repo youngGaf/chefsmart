@@ -4,7 +4,7 @@ import Wordmark from './components/Wordmark.js';
 import SearchBar from "./components/SearchBar.js";
 import Navbar from "./components/Navbar.js"
 import RecipeCards from "./components/RecipeCards.js"
-import SearchTags from "./components/SearchTags.js"
+import SearchTagContainer from "./components/SearchTagContainer.js"
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -19,7 +19,7 @@ function App() {
         <Navbar/>
         <Wordmark/> 
         <SearchBar/>
-        <SearchTags />  
+        <SearchTagContainer />  
         <RecipeCards />
     </div>
   );

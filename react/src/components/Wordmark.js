@@ -3,7 +3,9 @@ import React from "react"
 function Wordmark(){
     return(
     <div>
-        <h1 className="wordmark"> ChefSmart </h1> 
+        <a href="." className="wordmarkLink">
+            <h1 className="wordmark"> ChefSmart </h1> 
+        </a>
     </div>
     )
 }
