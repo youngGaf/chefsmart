@@ -11,6 +11,9 @@ function SearchTagContainer(){
         <SearchTag
             name="Tomatoes"
         />
+        <SearchTag
+            name="Parmesan"
+        />
     </div>
     )
 }

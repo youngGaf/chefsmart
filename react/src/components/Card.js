@@ -7,7 +7,7 @@ function Card(props){
                 <div className="card">
                     <div className="cardTop">
                         <div className="leftCardTop">
-                            <FontAwesomeIcon icon="heart" color="white" size="lg" />
+                            <FontAwesomeIcon icon="heart" color="orangered" size="lg" />
                         </div>
                         <div className="center">
                             <h3 className="recipeTitle"> {props.recipeTitle} </h3>
