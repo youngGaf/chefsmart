@@ -64,13 +64,7 @@ div, span {
   font-size: 50px;
   text-align: center;
   margin-top: 175px;
-}
-.wordmarkLink{
-  color: orangered;
-  text-decoration: none;
-}
-.wordmarkLink :hover{
-  color:orange;
+  margin-bottom: -5px;
 }
 a{
   color:orangered;
