@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "app": "nodemon app.js",
+    "react": "cd react && npm start",
+    "dev": "concurrently \"npm run app\" \"npm run react\""
   },
   "repository": {
     "type": "git",
