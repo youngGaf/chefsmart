@@ -4,19 +4,17 @@ const app = express();
 require('dotenv/config');
 
 
-//Middlewares
-app.use('/', (req,res)=>{
-    res.send("Done and dusted");
-});
-//ROUTES
+
+// ROUTES
 app.get('/',(req,res) => {
     res.send("Hello world!")
 });
 
-//connect to DB
+// connect to DB
 mongoose.connect(process.env.DB_CONNECTION, { useUnifiedTopology: true, useNewUrlParser: true }, () =>
-    console.log("connected to DB")
+    console.log("Connected to mongoDB")
 );
 
-//How to listen to server (http://localhost:3000/)
-app.listen(5000);
+// How to listen to server (http://localhost:5000/)
+const port = 5000;
+app.listen(port, ()=> console.log(`Server connected to port ${port}`));
